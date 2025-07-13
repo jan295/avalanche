@@ -1,8 +1,6 @@
-streamlit
-pandas
-numpy
-plotly
+streamlit[snowflake]
 altair
-matplotlib
-openai
-dotenv
+pandas
+snowflake-snowpark-python
+snowflake
+snowflake-ml-python
