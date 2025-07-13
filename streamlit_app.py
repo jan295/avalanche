@@ -20,7 +20,7 @@ st.set_page_config(page_title="Avalanche Data Set",
 
 st.title("🏔️ Avalanche Data Set")
 
-df = session.sql("SELECT * FROM AVALANCHE_DB.AVALANCHE_SCHEMA.CUSTOMER_REVIEWS").to_pandas()
+df = session.sql("SELECT * FROM AVALANCHE_DB.AVALANCHE_SCHEMA.CLEAN_REVIEWS").to_pandas()
 # # # df = pd.read_csv("data/customer_reviews.csv")
 # df
 
